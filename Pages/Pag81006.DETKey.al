@@ -1,6 +1,5 @@
 page 81006 "DET Key"
 {
-    ApplicationArea = All;
     Caption = 'Key';
     PageType = List;
     SourceTable = "Key";

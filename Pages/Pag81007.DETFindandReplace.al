@@ -1,6 +1,5 @@
 page 81007 "DET Find and Replace"
 {
-    ApplicationArea = All;
     Caption = 'Find and Replace';
     PageType = Worksheet;
     SourceTable = "DET Find and Replace";
@@ -105,16 +104,6 @@ page 81007 "DET Find and Replace"
             }
 
         }
-        area(Promoted)
-        {
-            actionref(FindAllRef; FindAll)
-            {
-            }
-            actionref(FindReplaceAllRef; FindReplaceAll)
-            {
-            }
-        }
-
     }
 
     local procedure FindAndReplaceAll(Replace: Boolean)
